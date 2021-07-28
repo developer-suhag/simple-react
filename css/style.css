@@ -4,6 +4,10 @@
 /* common style  */
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.section-title{
+    color: #363958;
 }
 
 /* header-section */
@@ -18,3 +22,16 @@ body{
 .nike-btn{
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
 }
+/* category section  */
+.categroy-1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.categroy-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.categroy-3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+
+/* casual shoes section  */
+
