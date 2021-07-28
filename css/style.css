@@ -11,6 +11,9 @@ body{
 }
 
 /* header-section */
+.logo{
+    width: 200px;
+}
 .header-section{
     background: #FFF9F4;
 }
@@ -40,4 +43,34 @@ body{
 /* footer section  */
 footer{
     background: #1e272e;
+}
+
+
+/* media query start */
+@media only screen and (max-width:600px) {
+    .carousel-heading{
+        font-size: 30px;
+    }
+    .carousel-img{
+        width: 70%;
+        
+    }
+    .section-title{
+        font-size: 30px;
+    }
+    .nike-btn{
+        padding: 5px 10px !important;
+    }
+    
+    .feaure-icon{
+        width: 50px;
+        margin-right: 10px;
+    }
+    .feature-section h4{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .feature-section p{
+        font-size: 14px;
+    }
 }
